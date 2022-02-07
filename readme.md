@@ -1,10 +1,10 @@
-#Dependencies
+# Dependencies
 
 - NumPy, Matplotlib , PIL
 - sklearn (dataset and some functions)
 - CV2
 
-##instructions 
+# instructions 
 *Trois méthodes* sont disponibles dans ce projet, elles sont indépendantes l'une des autres. 
 de préférence veillez décommenter les méthodes une par une pour avoir des résultats séparés.   
 
