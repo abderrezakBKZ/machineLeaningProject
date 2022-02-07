@@ -15,14 +15,14 @@ def kComparaison():
 
     X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.25, random_state=123)
 
-    kVals = np.arange(4, 10, 5)
+    kVals = np.arange(3, 100, 2)
     accuracies = []
 
     for k in kVals:
         model = KNN(k)
         model.fit(X_train, y_train)
         pred = model.predict(X_test)
-        print(pred)
         acc = accuracy_score(y_test, pred)
         accuracies.append(acc)
         print("K = " + str(k) + "; Accuracy: " + str(acc))
+

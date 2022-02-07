@@ -1,15 +1,19 @@
 from KComparaison import kComparaison
-from PredictionImageTest import predictionImageTest
-from PredictionTest import predictionTest
+from ExternPrediction import externPrediction
+from InternPrediction import InternPrediction
 
 #a lancer une par une
 
 
 # kComparaison()
 
-# predictionImageTest()
+# InternPrediction(2)
 
-# predictionTest(5)
+# externPrediction()
+
+
+
+
 
 
 
